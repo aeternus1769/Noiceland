@@ -1,0 +1,244 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+/* font-family: 'Libre Franklin', sans-serif;
+	font-family: 'Tenor Sans', sans-serif;
+	font-family: 'Source Serif Pro', serif;
+	*/
+
+body{
+	background-color: #fff;
+}
+.container{
+	max-width: 1240px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+/* Header */
+
+.header{
+	padding-top: 37.5px;
+}
+.header-nav{
+	margin-bottom: 33.5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000;
+}
+
+/* Nav */
+
+.nav-list{
+	display: flex;
+	column-gap: 40px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	
+}
+.nav-link{
+	color: #000;
+}
+
+/* Header-content */
+
+.header-row{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 60px;
+	column-gap: 50px;
+}
+.header-content{
+	max-width: 430px;
+	margin-top: 5px;
+}
+.h4{
+	font-family: 'Libre Franklin', sans-serif;
+	margin-bottom: 18px;
+	font-weight: 400;
+	font-size: 10px;
+	color: #999999;
+	text-transform: uppercase;
+}
+.h1{
+	font-family: 'Tenor Sans', sans-serif;
+	margin-bottom: 27px;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+.header-content p{
+	font-family: 'Source Serif Pro', serif;
+	margin-bottom: 28px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #666666;
+}
+.h5{
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+/* Section 1 */
+.section1{
+	margin-bottom: 156px;
+}
+.table1 {
+	margin-top: 35px;
+	border-spacing: 9px;
+}
+.img {
+    min-width: 387px; /* Ширина таблицы */
+    min-height: 254px; /* Высота таблицы */
+	margin-bottom: 24px; 
+   } 
+.table1 th{
+	text-align: left;
+	vertical-align:top;
+	padding-top: 40px;
+}
+.table1 h4{
+	margin-bottom: 18px;
+}
+.table1 h2{
+	font-family: 'Tenor Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.table1 h5{
+	margin-bottom: 15px;
+}
+
+/* Section 2 */
+
+.column1{
+	max-width: 305px;
+}
+.column1_img{
+	margin-bottom: 25px;
+}
+.column1 h4{
+	margin-bottom: 18px;
+}
+.column1 h2{
+	margin-bottom: 15px;
+	font-family: 'Tenor Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.column1 h5{
+	margin-bottom: 50px;
+}
+.latest_post{
+	display: flex;
+	column-gap: 20px;
+}
+.latest_post h2{
+	max-width: 285px;
+}
+.last_post2{
+	display: flex;
+	column-gap: 20px;
+}
+.last_post2 h2{
+	max-width: 285px;
+}
+
+.btn{
+	margin-top: 65px;
+	text-align: center;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 400;
+	font-size: 10;
+	text-transform: uppercase;
+	margin-bottom: 90px;
+}
+.btn a{
+	padding: 21px 26px;
+	border: 1px solid #000;
+	color: #000;
+}
+
+/* Footer */
+
+.contacts{
+	background-color: #141414;
+	min-height: 617px;
+}
+.contacts-logo{
+	padding-top: 93px;
+	display: flex;
+	align-items: baseline;
+	column-gap: 15px;
+	margin-bottom: 60px;
+}
+.contacts-logo .logo{
+	color: #fff;
+}
+.rectangle{
+	margin-bottom: 60px;
+}
+.contacts-categories{
+	display: flex;
+}
+.categories{
+	width: 100%;
+	display: grid;
+}
+.contacts-menu{
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 70px;
+}
+.column{
+	display: grid;
+	row-gap: 15px;
+	width: 25%;
+}
+.column a{
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+}
+
+.email-address{
+	display: flex;
+}
+.email_input{
+	background-color: #fff;
+	min-width: 220px;
+	min-height: 48px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 400;
+	font-size: 10px;
+	color: #999999;
+	text-transform: uppercase;
+	padding-left: 24px;
+}
+.btn_send{
+	padding: 18px 24px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 400;
+	font-size: 10px;
+}
+.btn_send a{
+	color: #fff;
+}
+
